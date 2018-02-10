@@ -1,0 +1,120 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.cardblock{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 22rem;
+    background-color: #ebebf3;
+    padding: 1.188rem 1.25rem 1.5rem;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(114,114,128,1) ,  -1px -1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75) ,  -1px -1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75) ,  -1px -1px 5px 0px rgba(0,0,0,0.75);
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+figure{
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
+.card__image{
+    width: 100%;
+}
+
+figcaption{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 1.875rem; 
+}
+
+.card__title{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 1.875rem;
+    margin-bottom: 0.75rem;
+}
+
+.card__textblock{
+    margin-bottom: 2rem;
+}
+
+.card__textblock span:nth-child(2){
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.card__icons{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 63%;
+}
+
+.card__icons-strawberries{
+    background-image: url(images/strawberries.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 1.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: block;
+}
+
+.card__icons-lemons{
+    background-image: url(images/lemons.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: block;
+}
+
+.card__icons-hand{
+    background-image: url(images/hand.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 1.8125rem;
+    height: 1.875rem;
+}
