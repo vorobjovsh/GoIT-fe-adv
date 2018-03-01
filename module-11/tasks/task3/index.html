@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task1</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="container">
+          <form class="search-form">
+            <button class="mdc-btn" type="submit" id="js-get">get</button>
+          </form>
+          <p class="result"></p>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <script type="text/template" id="templ">
+        <div>
+            <span><%- name%></span>
+            <span><%- score%></span>
+        </div>
+    </script>
+    
+    <script src="main.js"></script>
+</body>
+</html>
