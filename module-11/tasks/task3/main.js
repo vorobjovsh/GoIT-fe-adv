@@ -27,7 +27,9 @@ getBtn.addEventListener("click", get);
 function get(evt) {
   evt.preventDefault();
     
-    fetch("http://fecore.net.ua/rest/")
+    fetch("http://fecore.net.ua/rest/", {
+        method: 'get'
+    })
     
     .then(response => {
       if (response.ok) return response.json();
